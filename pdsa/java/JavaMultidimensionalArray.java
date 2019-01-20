@@ -1,4 +1,16 @@
-public class Assignment7 {
+/*
+Coventry Computing 18.2
+Pradeep Sanjaya
+cobsccomp182p-030
+
+Programming, Data Structures and Algorithms
+Assignment 7
+Java multidimensional array
+*/
+
+package pdsa;
+
+public class JavaMultidimensionalArray {
     public static void main(String[] args) {
 
         int a1[][] = {{1, 3, 4}, {4, 5, 6}};

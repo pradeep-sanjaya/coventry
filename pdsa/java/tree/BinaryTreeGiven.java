@@ -1,6 +1,15 @@
-package pdsa;
+/*
+Coventry Computing 18.2
+Pradeep Sanjaya
+cobsccomp182p-030
 
-import com.sun.org.apache.xpath.internal.SourceTree;
+Programming, Data Structures and Algorithms
+Assignment 23
+BinaryTree
+InOrder, PreOrder, PostOrder
+*/
+
+package pdsa.tree;
 
 public class BinaryTreeGiven {
 

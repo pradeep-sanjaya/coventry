@@ -4,37 +4,38 @@ Pradeep Sanjaya
 cobsccomp182p-030
 
 Programming, Data Structures and Algorithms
-Assignment 20
-PriorityQueue Integer
+Assignment 19
+PriorityQueue String
+Compare iterator order of String PriorityQueue vs Integer PriorityQueue
 */
 
-package pdsa;
+package pdsa.collections.queue;
 
 import java.util.Iterator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class PriorityQueueInteger {
+public class PriorityQueueString {
 
-    public static Queue<Integer> queue = new PriorityQueue<>();
+    public static Queue<String> queue = new PriorityQueue<>();
 
     public static void main(String[] args) {
 
-        queue.add(1);
-        queue.add(2);
-        queue.add(3);
-        queue.add(4);
-        queue.add(5);
+        queue.add("One");
+        queue.add("Two");
+        queue.add("Three");
+        queue.add("Four");
+        queue.add("Five");
 
         System.out.println("head element: " + queue.element());
         System.out.println("head peek: " + queue.peek());
 
         print();
 
-        Integer e1 = queue.remove();
+        String e1 = queue.remove();
         System.out.println("removed - queue: " + e1);
 
-        Integer e2 = queue.poll();
+        String e2 = queue.poll();
         System.out.println("removed - poll: " + e2);
 
         print();

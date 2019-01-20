@@ -1,4 +1,16 @@
-public class Assignment2 {
+/*
+Coventry Computing 18.2
+Pradeep Sanjaya
+cobsccomp182p-030
+
+Programming, Data Structures and Algorithms
+Assignment 2
+Exception Handling
+*/
+
+package pdsa;
+
+public class JavaExceptionHandling {
     public static void main(String[] args) {
 
         int[] arr = new int[4];

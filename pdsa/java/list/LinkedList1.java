@@ -1,4 +1,16 @@
-public class Assignment8 {
+/*
+Coventry Computing 18.2
+Pradeep Sanjaya
+cobsccomp182p-030
+
+Programming, Data Structures and Algorithms
+Assignment 8
+LinkedList, manually link and display
+*/
+
+package pdsa.list;
+
+public class LinkedList1 {
 
     static Node head;
 

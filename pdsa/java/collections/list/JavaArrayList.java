@@ -9,12 +9,12 @@ ArrayList
 Add elements to ArrayList and iterate the list
 */
 
-package pdsa;
+package pdsa.collections.list;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class CollectionsArrayList {
+public class JavaArrayList {
 
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<String>();

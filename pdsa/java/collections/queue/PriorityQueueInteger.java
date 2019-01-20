@@ -4,48 +4,37 @@ Pradeep Sanjaya
 cobsccomp182p-030
 
 Programming, Data Structures and Algorithms
-Assignment 22
-PriorityQueue with a custom class
-Use Comparator in initialization
-Override compare method
+Assignment 20
+PriorityQueue Integer
 */
 
-package pdsa;
+package pdsa.collections.queue;
 
-import java.util.Comparator;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class PriorityQueueComparator {
+public class PriorityQueueInteger {
 
-
-    public static Queue<String> queue = new java.util.PriorityQueue<>(new Comparator<String>() {
-        @Override
-        public int compare(String o1, String o2) {
-            return o1.length() - o2.length();
-        }
-    });
+    public static Queue<Integer> queue = new PriorityQueue<>();
 
     public static void main(String[] args) {
 
-        //add few strings with different length
-        queue.add("===");
-        queue.add("======");
-        queue.add("====");
-        queue.add("=========");
-        queue.add("===");
-        queue.add("=");
+        queue.add(1);
+        queue.add(2);
+        queue.add(3);
+        queue.add(4);
+        queue.add(5);
 
         System.out.println("head element: " + queue.element());
         System.out.println("head peek: " + queue.peek());
 
         print();
 
-        String e1 = queue.remove();
+        Integer e1 = queue.remove();
         System.out.println("removed - queue: " + e1);
 
-        String e2 = queue.poll();
+        Integer e2 = queue.poll();
         System.out.println("removed - poll: " + e2);
 
         print();

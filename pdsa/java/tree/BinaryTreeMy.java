@@ -1,4 +1,4 @@
-package pdsa;
+package pdsa.tree;
 
 public class BinaryTreeMy {
 

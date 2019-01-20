@@ -1,7 +1,19 @@
-public class Assignment3 extends Thread {
+/*
+Coventry Computing 18.2
+Pradeep Sanjaya
+cobsccomp182p-030
+
+Programming, Data Structures and Algorithms
+Assignment 3
+Java Threads, extend Thread class
+*/
+
+package pdsa;
+
+public class JavaThreadExtentdThread extends Thread {
     String name;
 
-    public Assignment3 (String name) {
+    public JavaThreadExtentdThread(String name) {
         this.name = name;
     }
 
@@ -20,9 +32,9 @@ public class Assignment3 extends Thread {
     }
 
     public static void main(String[] args) {
-        Assignment3 a1 = new Assignment3("*");
-        Assignment3 a2 = new Assignment3("-");
-        Assignment3 a3 = new Assignment3("=");
+        JavaThreadExtentdThread a1 = new JavaThreadExtentdThread("*");
+        JavaThreadExtentdThread a2 = new JavaThreadExtentdThread("-");
+        JavaThreadExtentdThread a3 = new JavaThreadExtentdThread("=");
 
         a1.start();
         a2.start();

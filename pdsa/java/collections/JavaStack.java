@@ -9,11 +9,11 @@ Java Collections Integer Stack
 Push multiple elements and pop
 */
 
-package pdsa;
+package pdsa.collections;
 
 import java.util.Stack;
 
-public class CollectionsStack {
+public class JavaStack {
 
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<Integer>();

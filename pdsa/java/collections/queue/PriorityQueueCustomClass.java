@@ -9,33 +9,13 @@ PriorityQueue with a custom class
 Implement Comparable interface, compareTo method
 */
 
-package pdsa;
+package pdsa.collections.queue;
 
 import java.util.Iterator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class PriorityQueueCustomClass {
-
-    static class Person implements Comparable<Person> {
-        private int id;
-        private String name;
-
-        public Person(int id, String name) {
-            this.id   = id;
-            this.name = name;
-        }
-
-        @Override
-        public String toString() {
-            return "{id: " + id + ", name: " + name + "}";
-        }
-
-        @Override
-        public int compareTo(Person person) {
-            return (id == person.id) ? 0 : (id > person.id) ? 1 : -1;
-        }
-    }
 
     public static Queue<Person> queue = new PriorityQueue<>();
 
