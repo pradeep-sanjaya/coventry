@@ -12,7 +12,7 @@ package pdsa.collections.list;
 
 import java.util.LinkedList;
 
-public class JavaLinkedList {
+public class JavaLinkedListGeneric {
 
     public static void main(String[] args) {
 

@@ -10,7 +10,7 @@ Java multidimensional array
 
 package pdsa;
 
-public class JavaMultidimensionalArray {
+public class JavaMultiDimensionArray {
     public static void main(String[] args) {
 
         int a1[][] = {{1, 3, 4}, {4, 5, 6}};
